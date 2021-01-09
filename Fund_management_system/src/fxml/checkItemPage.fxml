@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.checkItemController">
+   <children>
+      <Label layoutX="156.0" layoutY="26.0" text="查看项目信息">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="84.0" layoutY="100.0" text="项目计数" />
+      <Label layoutX="84.0" layoutY="157.0" text="项目经费" />
+      <Label layoutX="84.0" layoutY="219.0" text="经费最高" />
+      <Label layoutX="84.0" layoutY="276.0" text="经费最低" />
+      <TextField fx:id="items_count" layoutX="193.0" layoutY="94.0" />
+      <TextField fx:id="items_fund" layoutX="193.0" layoutY="151.0" />
+      <TextField fx:id="mxa_item_fund" layoutX="193.0" layoutY="213.0" />
+      <TextField fx:id="min_item_fund" layoutX="193.0" layoutY="270.0" />
+   </children>
+</AnchorPane>

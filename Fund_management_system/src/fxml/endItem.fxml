@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="269.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.endItem">
+   <children>
+      <Label layoutX="84.0" layoutY="26.0" text="项目结算界面">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="89.0" text="项目负责人" />
+      <Label layoutX="57.0" layoutY="140.0" text="项目名称" />
+      <TextField fx:id="item_leader" layoutX="156.0" layoutY="83.0" />
+      <TextField fx:id="item_name" layoutX="156.0" layoutY="134.0" />
+      <Button fx:id="confirm_button" layoutX="117.0" layoutY="203.0" mnemonicParsing="false" onAction="#confirmEndItem" text="确定" />
+      <Button fx:id="cancel_button" layoutX="264.0" layoutY="203.0" mnemonicParsing="false" onAction="#cancelEndItem" text="取消" />
+   </children>
+</AnchorPane>

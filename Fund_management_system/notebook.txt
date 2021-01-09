@@ -1,0 +1,12 @@
+打开界面
+//Main.endItem to_endItem_Page = new endItem();
+Stage stage = new Stage();
+to_endItem_Page.start(stage);
+
+关闭界面
+//Stage primaryStage = (Stage) cancel_button.getScene().getWindow();
+primaryStage.close();
+
+弹出提示框
+//Alert alert = new Alert(Alert.AlertType.INFORMATION, "项目申请成功!");
+alert.show();

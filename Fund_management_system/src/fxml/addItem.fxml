@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="302.0" prefWidth="416.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.addItem">
+   <children>
+      <Label layoutX="109.0" layoutY="25.0" text="项目申请界面">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="84.0" text="申请人姓名" />
+      <Label layoutX="40.0" layoutY="129.0" text="项目名称" />
+      <Label layoutX="40.0" layoutY="176.0" text="项目经费" />
+      <Button fx:id="confirm_button" layoutX="109.0" layoutY="227.0" mnemonicParsing="false" onAction="#applyItem" text="确认" />
+      <Button fx:id="cancel_button" layoutX="250.0" layoutY="227.0" mnemonicParsing="false" onAction="#cancelApplyItem" text="取消" />
+      <TextField fx:id="item_leader" layoutX="139.0" layoutY="78.0" />
+      <TextField fx:id="item_name" layoutX="139.0" layoutY="123.0" />
+      <TextField fx:id="item_fund" layoutX="139.0" layoutY="170.0" />
+   </children>
+</AnchorPane>
